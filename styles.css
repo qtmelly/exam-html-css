@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --vert-foncé: #006c49;
+  --vert-clair: #06b77f;
+  --vert-trop-clair: #e2eae3;
+  --noir: #161d19;
+  --vert-trop-foncé: #3c4a42;
+  --blanc: #ffffff;
+  --gris: #6c7a71;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toute-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 20px;
+  height: 40px;
+}
+
+.tracking-skills {
+  display: flex;
+  color: var(--vert-foncé);
+  font-weight: 700px;
+  font-size: 20px;
+  font-family: "Geist", sans-serif;
+}
+
+.choix {
+  display: flex;
+  flex-direction: row;
+  font-family: "JetBrains Mono", sans-serif;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dashboard {
+  margin-left: 20px;
+  color: var(--vert-foncé);
+  text-decoration: underline;
+  text-decoration-color: var(--vert-foncé);
+}
+
+.page-verte {
+  background-color: var(--vert-trop-clair);
+  display: flex;
+  flex-direction: column;
+}
+
+.discover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Geist", sans-serif;
+  padding: 25px;
+  color: var(--vert-trop-foncé);
+}
+
+.cartemillieu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  color: var(--noir);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.exploreskills {
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  color: var(--blanc);
+  background-color: var(--vert-clair);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+.audit {
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--vert-trop-clair);
+  color: var(--vert-trop-foncé);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.inventory {
+  display: flex;
+  flex-direction: column;
+  font-family: "Geist", sans-serif;
+  gap: 6px;
+  padding: 20px;
+}
+
+.inventory-texte {
+  color: var(--vert-trop-foncé);
+  font-weight: 300;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 14px;
+}
+
+.allskills {
+  font-family: "JetBrains Mono", sans-serif;
+  background-color: var(--vert-trop-clair);
+  border: none;
+  border-radius: 999px;
+  padding: 2px 6px;
+  cursor: pointer;
+  background-color: var(--vert-clair);
+  color: var(--blanc);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.firstbut {
+  font-family: "JetBrains Mono", sans-serif;
+  background-color: var(--vert-trop-clair);
+  border: 1px solid #bbcabf;
+  border-radius: 999px;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+  color: #3c4a42;
+}
+
+.page-final {
+  display: flex;
+  flex-direction: column;
+  font-family: "JetBrains Mono", sans-serif;
+  margin: auto;
+  margin-top: 40px;
+  width: 97%;
+  border: 1px solid #bbcabf;
+}
+
+.liste1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--blanc);
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--blanc);
+  gap: 8px;
+}
+
+.total-hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 6px;
+  color: #3c4a42;
+}
+
+.totalhours {
+  color: var(--griss);
+}
+
+.p {
+  color: var(--gris);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h4 {
+  color: #6c7a71;
+}
+
+hr {
+  color: #bbcabf;
+}
+
+.poucentage-vert {
+  color: var(--vert-foncé);
+}
+
+.totalhours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 6px;
+  color: var(--gris);
+}
